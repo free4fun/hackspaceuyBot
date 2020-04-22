@@ -1,0 +1,37 @@
+{
+  "name": "teleirc-bot",
+  "version": "1.2.1",
+  "description": "A simple Telegram <=> IRC bot",
+  "main": "teleirc.js",
+  "scripts": {
+    "start": "node teleirc.js",
+    "test": "nodeunit ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RITlug/teleirc.git"
+  },
+  "keywords": [
+    "telegram",
+    "irc",
+    "RITlug"
+  ],
+  "author": "Mark Repka, Seth Hendrick, Nate Levesque, Robby O'Connor, Justin W. Flory, RITlug, and TeleIRC community",
+  "license": "MIT",
+  "dependencies": {
+    "all-your-base": "^0.3.0",
+    "dotenv": "^2.0.0",
+    "iconv": "^2.3.1",
+    "imgur": "^0.3.1",
+    "irc": "~0.5.0",
+    "mathjs": "^6.2.3",
+    "node": "^10",
+    "node-duckduckgo": "^2.0.8",
+    "node-telegram-bot-api": "^0.30.0",
+    "openweather-apis": "^4.0.0",
+    "xml2js": "^0.4.22"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.11.2"
+  }
+}
